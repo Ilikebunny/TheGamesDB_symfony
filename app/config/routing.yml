@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
+ilikebunny_gdb:
+    resource: "@IlikebunnyGdbBundle/Controller/"
     type:     annotation
+    prefix:   /
