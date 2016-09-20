@@ -1,13 +1,35 @@
 <!DOCTYPE html>
 <html>
-     {{ include('IlikebunnyGdbBundle:layout:layout.head.html.twig') }}
+    {{ include('IlikebunnyGdbBundle:layout:layout.head.html.twig') }}
     <body>
+        {{ include('IlikebunnyGdbBundle:layout:layout.header.html.twig') }}
         <div id="main" class="container">
-            {% block body %}
-            {% endblock %}
+            <section class="panel row">
+                <header class="panel-heading col-md-12">
+                    <h2>{% block panel_head %}{% endblock %}</h2>
+                </header>
+                {% block menu_content %}
+                {% endblock %}
+                <div class="panel-body col-md-9">
+                    {{ include('IlikebunnyGdbBundle:layout:flash_message_block.html.twig') }}
+                    {% block body %}
+                    {% endblock %}
+                    {% if pagerHtml is defined %}
+                        {{ pagerHtml | raw}}
+                    {% endif %}
+                </div>
+                <div class="panel-body col-md-3">
+                    {% block aside %}
+                    {% endblock %}
+                    <hr>
+                    {{ include('IlikebunnyGdbBundle:layout:layout.aside.html.twig') }} 
+                    {{ dump() }}
+                </div>
+            </section>
         </div>
         <div id="footer" class="container-fluid">
             {{ include('IlikebunnyGdbBundle:layout:layout.footer.html.twig') }}
         </div>
+        <script src="{{ asset('js/bootstrap.min.js') }}"></script>
     </body>
 </html>

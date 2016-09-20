@@ -1,0 +1,127 @@
+
+.banniere_img{
+    width: 120px;
+}
+
+.table_img{
+    width: 60px;
+}
+
+.gallery_img{
+    width: 100%;
+    padding-top: 10px;
+}
+
+.navtab_img{
+    width: 60px;
+}
+
+.filter_img{
+    width: 80px;
+}
+
+
+#logo{
+    width: 180px;
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+
+#banniere_bande{
+    height: 70px;
+    /*background-color: #549e33;*/
+    background-color: #adc917;
+}
+#menu_haut{
+    /*background-color: #adc917;*/
+}
+.navbar-default {
+    background-color:#adc917;
+    border-color:#adc917;
+    background-image: none;
+    background-repeat: no-repeat;
+}
+#admin_menu{
+}
+
+#main{
+    background-color: #ffe5bd;
+}
+
+.panel-heading{
+    /*background-color: #915e36;*/
+    background-color: #c99e66;
+}
+
+.panel-body{
+    /*background-color: #ffe5bd;*/
+    background-color: #e3c7a1;
+}
+
+#main_content{
+    min-height: 500px;
+}    
+
+body{
+    background-color: #ffe5bd;
+}
+.panel{
+    min-height: 500px;
+    /*background-color: #ffe5bd;*/
+    background-color: #e3c7a1;
+}    
+
+.fiche_produit{
+    border-style: solid;
+    border-width: 5px;
+}
+
+#footer{
+    background-color: #915e36;
+}
+
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+
+.article_entete{
+    background-color: #adc917;
+}
+
+.article_entete a{
+    background-color: #adc917;
+    color: whitesmoke;
+}
+
+.article_lien > a{
+    background-color: #c99e66;
+}
+
+.article_summary{
+    background-color: whitesmoke;
+    color: black;
+}
+
+.article_header{
+    font-style: italic;
+}
+
+.article_header span{
+    font-style: normal;
+    color: orangered;
+}
+
+span.fc-title {
+    padding: 5px !important;
+    text-overflow: ellipsis;
+    white-space: pre-line;
+}
+
+#map { 
+    height: 500px; 
+}
+
