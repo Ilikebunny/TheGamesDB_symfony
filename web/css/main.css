@@ -1,3 +1,15 @@
+:root {
+  --color1: black;
+  --color2: #CECECE;
+  --color3: #ffe5bd;
+  --color3: #3A3A3A;
+  --color4: #727272;
+  --color5: #e3c7a1;
+  --color5: #CECECE;
+  --color6: #915e36;
+  --color6: #A8A8A8;
+  --color7: #adc917;
+}
 
 .banniere_img{
 /*    width: 120px;*/
@@ -33,32 +45,33 @@
 #banniere_bande{
     /*height: 70px;*/
     /*background-color: #549e33;*/
-    background-color: black;
+    background-color: var(--color1);
 }
 #menu_haut{
     /*background-color: #adc917;*/
 }
 .navbar-default {
-    background-color:#adc917;
-    border-color:#adc917;
+    background-color: var(--color2);
+    border-color: var(--color2);
     background-image: none;
     background-repeat: no-repeat;
 }
+
 #admin_menu{
 }
 
 #main{
-    background-color: #ffe5bd;
+    background-color: var(--color3);
 }
 
 .panel-heading{
     /*background-color: #915e36;*/
-    background-color: #c99e66;
+    background-color: var(--color4);
 }
 
 .panel-body{
     /*background-color: #ffe5bd;*/
-    background-color: #e3c7a1;
+    background-color: var(--color5);
 }
 
 #main_content{
@@ -66,12 +79,12 @@
 }    
 
 body{
-    background-color: #ffe5bd;
+    background-color: var(--color3);
 }
 .panel{
-    min-height: 500px;
+    min-height: 5000px;
     /*background-color: #ffe5bd;*/
-    background-color: #e3c7a1;
+    background-color: var(--color5);
 }    
 
 .fiche_produit{
@@ -80,7 +93,7 @@ body{
 }
 
 #footer{
-    background-color: #915e36;
+    background-color: var(--color6);
 }
 
 .vertical-align {
@@ -89,16 +102,16 @@ body{
 }
 
 .article_entete{
-    background-color: #adc917;
+    background-color: var(--color7);
 }
 
 .article_entete a{
-    background-color: #adc917;
+    background-color: var(--color7);
     color: whitesmoke;
 }
 
 .article_lien > a{
-    background-color: #c99e66;
+    background-color: var(--color4);
 }
 
 .article_summary{
