@@ -4,6 +4,7 @@
     <body>
         {{ include('IlikebunnyGdbBundle:layout:layout.header.html.twig') }}
         <div id="main" class="container">
+            
             <section class="panel row">
                 <header class="panel-heading col-md-12">
                     <h2>{% block panel_head %}{% endblock %}</h2>
@@ -26,6 +27,7 @@
                     {{ dump() }}
                 </div>
             </section>
+                
         </div>
         <div id="footer" class="container-fluid">
             {{ include('IlikebunnyGdbBundle:layout:layout.footer.html.twig') }}
