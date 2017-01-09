@@ -11,7 +11,7 @@
                 </header>
                 {% block menu_content %}
                 {% endblock %}
-                <div class="panel-body col-md-9">
+                <div class="panel-body col-md-10">
                     {{ include('IlikebunnyGdbBundle:layout:flash_message_block.html.twig') }}
                     {% block body %}
                     {% endblock %}
@@ -19,7 +19,7 @@
                         {{ pagerHtml | raw}}
                     {% endif %}
                 </div>
-                <div class="panel-body col-md-3">
+                <div class="panel-body col-md-2">
                     {% block aside %}
                     {% endblock %}
                     <hr>
